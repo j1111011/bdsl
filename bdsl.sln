@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bdsl", "bdsl\bdsl.vcproj", "{DDF8C54A-6890-4EC8-BC64-A0F570BA4147}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcproj", "{52ACADB9-F41A-4D0C-A027-725DB480B454}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DDF8C54A-6890-4EC8-BC64-A0F570BA4147} = {DDF8C54A-6890-4EC8-BC64-A0F570BA4147}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDF8C54A-6890-4EC8-BC64-A0F570BA4147}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DDF8C54A-6890-4EC8-BC64-A0F570BA4147}.Debug|Win32.Build.0 = Debug|Win32
+		{DDF8C54A-6890-4EC8-BC64-A0F570BA4147}.Release|Win32.ActiveCfg = Release|Win32
+		{DDF8C54A-6890-4EC8-BC64-A0F570BA4147}.Release|Win32.Build.0 = Release|Win32
+		{52ACADB9-F41A-4D0C-A027-725DB480B454}.Debug|Win32.ActiveCfg = Debug|Win32
+		{52ACADB9-F41A-4D0C-A027-725DB480B454}.Debug|Win32.Build.0 = Debug|Win32
+		{52ACADB9-F41A-4D0C-A027-725DB480B454}.Release|Win32.ActiveCfg = Release|Win32
+		{52ACADB9-F41A-4D0C-A027-725DB480B454}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
