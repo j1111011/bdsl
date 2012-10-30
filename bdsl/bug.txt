@@ -1,2 +1,4 @@
 #1 map Rebalance
 #2 insert ,(recursive function) crash
+#3 list ,memory leak
+#4 map increase/decrease algorithm
