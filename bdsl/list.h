@@ -1,3 +1,8 @@
+/*
+// Copyright (c) 2011-2012 
+// 
+// jl£¨ j1111011@163.com £©
+ */
 #ifndef _BDSL_LIST_H
 #define _BDSL_LIST_H 0x01
 #include "base.h"

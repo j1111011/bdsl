@@ -1,3 +1,8 @@
+/*
+// Copyright (c) 2011-2012 
+// 
+// jl£¨ j1111011@163.com £©
+ */
 #ifndef _BSDL_STACK_H_
 #define _BSDL_STACK_H_ 0x01
 #include <stdlib.h>
