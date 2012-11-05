@@ -13,7 +13,7 @@ typedef struct __tagmapnode{
 	unsigned int _size;
 }*pmapnode,mapnode;
 pmapnode map_create(){
-	pmapnode root = malloc(sizeof(mapnode));
+	pmapnode root = (pmapnode)malloc(sizeof(mapnode));
 	memset(root,0,sizeof(mapnode));
 	root->_role = MAP_ROOT;
 	return root;
